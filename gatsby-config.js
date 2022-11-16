@@ -6,5 +6,8 @@ module.exports = {
     title: `netWERKER Gatsby Test`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+  ],
 }
